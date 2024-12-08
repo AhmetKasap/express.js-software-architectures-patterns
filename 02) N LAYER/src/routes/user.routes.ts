@@ -8,4 +8,6 @@ const userController = container.get<UserController>(TYPES.UserController);
 
 router.get("/", (req, res) => userController.getAllUsers(req, res));
 
+router.post('/', )
+
 export default router;
